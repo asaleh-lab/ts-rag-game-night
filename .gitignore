@@ -1,0 +1,9 @@
+node_modules/
+.env
+chroma_data/
+dist/
+*.tsbuildinfo
+bin
+obj
+__pycache__
+.venv

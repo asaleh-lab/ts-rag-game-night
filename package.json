@@ -1,0 +1,31 @@
+{
+  "name": "ts-rag-game-night",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "vector-retriever": "tsx src/vector-retriever.ts",
+    "multi-query": "tsx src/multi-query.ts",
+    "self-query": "tsx src/self-query.ts",
+    "parent-document": "tsx src/parent-document.ts",
+    "llamaindex-retrievers": "tsx src/llamaindex-retrievers.ts",
+    "faiss-search": "tsx src/faiss-search.ts",
+    "chroma-and-faiss": "tsx src/chroma-and-faiss.ts",
+    "app": "tsx src/app.ts"
+  },
+  "dependencies": {
+    "@langchain/classic": "1.0.48",
+    "@langchain/core": "1.2.11",
+    "@langchain/openai": "1.5.13",
+    "@langchain/textsplitters": "1.0.1",
+    "dotenv": "17.4.2",
+    "faiss-node": "0.5.1",
+    "langchain": "1.5.11"
+  },
+  "devDependencies": {
+    "@types/node": "24.3.1",
+    "tsx": "4.23.13",
+    "typescript": "5.9.2"
+  }
+}

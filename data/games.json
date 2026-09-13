@@ -1,0 +1,122 @@
+[
+  {
+    "id": "patchwork",
+    "title": "Patchwork",
+    "players_min": 2,
+    "players_max": 2,
+    "minutes": 30,
+    "weight": 2,
+    "cooperative": false,
+    "on_shelf": true,
+    "pairs_with": "azul",
+    "how_it_plays": "Two people sit with a bag of fabric tiles and take turns sewing a quilt. You buy a piece, place it on your board, and watch the time track. Once you know the rules, the table goes still.\n\nIt fits a small table and it is done in half an hour. The buttons and the leftover holes are the whole fight. The only sound is tiles. Staff put it out for a couple who want a short, calm evening."
+  },
+  {
+    "id": "azul",
+    "title": "Azul",
+    "players_min": 2,
+    "players_max": 4,
+    "minutes": 45,
+    "weight": 2,
+    "cooperative": false,
+    "on_shelf": true,
+    "pairs_with": "patchwork",
+    "how_it_plays": "You draft coloured tiles from factory displays and line them up on a wall. Two players is the still version. Four players still stays on the table. You hear tiles clicking, not a room full of clues.\n\nIt takes a little longer than Patchwork and still works if a third person sits down. The pattern on the wall is the whole point. Same shelf as Patchwork for abstract tiles and a low voice."
+  },
+  {
+    "id": "just-one",
+    "title": "Just One",
+    "players_min": 3,
+    "players_max": 7,
+    "minutes": 20,
+    "weight": 1,
+    "cooperative": true,
+    "on_shelf": true,
+    "pairs_with": "codenames",
+    "how_it_plays": "One person guesses a word. Everyone else writes a one-word clue. Duplicate clues are thrown away, so the table talks over each other before the guess. You need three or more. People read clues out loud and laugh.\n\nWe keep it for Friday when the room is already busy. Same shelf as Codenames. A group game, not a small still table."
+  },
+  {
+    "id": "codenames",
+    "title": "Codenames",
+    "players_min": 4,
+    "players_max": 8,
+    "minutes": 15,
+    "weight": 1,
+    "cooperative": false,
+    "on_shelf": true,
+    "pairs_with": "just-one",
+    "how_it_plays": "Two teams, a grid of words, and one clue that is supposed to hit several cards at once. People lean in and hiss guesses. You need four at least. It is short and it fills the room.\n\nWe shelve it next to Just One for the word-game crowd. Teams, a spy master, a lot of side talk."
+  },
+  {
+    "id": "the-crew",
+    "title": "The Crew",
+    "players_min": 2,
+    "players_max": 5,
+    "minutes": 20,
+    "weight": 2,
+    "cooperative": true,
+    "on_shelf": true,
+    "pairs_with": "love-letter",
+    "how_it_plays": "A cooperative trick-taking game in space. You play cards with almost no table talk and try to complete a mission. Two people can play the small missions. Rounds stay short.\n\nGood when they want a card game without a fight. Love Letter is the other small box on that shelf if they would rather play against each other."
+  },
+  {
+    "id": "love-letter",
+    "title": "Love Letter",
+    "players_min": 2,
+    "players_max": 4,
+    "minutes": 20,
+    "weight": 1,
+    "cooperative": false,
+    "on_shelf": true,
+    "pairs_with": "the-crew",
+    "how_it_plays": "Sixteen cards. You hold one, draw one, and try to keep your letter in the princess's hand. Rounds last a minute. Two players works. There is almost nothing to negotiate, so the table stays still.\n\nWe lend this when they have twenty minutes and do not want tiles. The Crew sits next to it if they would rather win together."
+  },
+  {
+    "id": "wingspan",
+    "title": "Wingspan",
+    "players_min": 1,
+    "players_max": 5,
+    "minutes": 70,
+    "weight": 2,
+    "cooperative": false,
+    "on_shelf": true,
+    "pairs_with": "azul",
+    "how_it_plays": "You play birds onto habitats and collect eggs and food. The art is calm. Two players can take an hour. People talk a little about which bird to play, then go back to their own board.\n\nLonger than Patchwork. Fine for a slow evening and an engine. Azul is the shorter tile game if they liked pretty pieces and a low voice."
+  },
+  {
+    "id": "catan",
+    "title": "Catan",
+    "players_min": 3,
+    "players_max": 4,
+    "minutes": 90,
+    "weight": 2,
+    "cooperative": false,
+    "on_shelf": true,
+    "pairs_with": "codenames",
+    "how_it_plays": "You build roads and towns on an island and trade sheep for wood. Trading is the noise. Three or four players. About ninety minutes if nobody knows it. People haggle across the table.\n\nWe keep a copy because groups ask for it by name. Roads, wheat, and a lot of negotiation."
+  },
+  {
+    "id": "spirit-island",
+    "title": "Spirit Island",
+    "players_min": 1,
+    "players_max": 4,
+    "minutes": 120,
+    "weight": 4,
+    "cooperative": true,
+    "on_shelf": true,
+    "pairs_with": "nemesis",
+    "how_it_plays": "You are spirits defending an island from settlers. The rules are a booklet, not a card. Two people can play, but it is a long thinky co-op. The table goes still because everyone is counting powers.\n\nSave it for the afternoon crowd that asked for a heavy puzzle on purpose. Nemesis is the other long box if they want a ship and a creature instead of spirits."
+  },
+  {
+    "id": "nemesis",
+    "title": "Nemesis",
+    "players_min": 1,
+    "players_max": 5,
+    "minutes": 180,
+    "weight": 4,
+    "cooperative": false,
+    "on_shelf": false,
+    "pairs_with": "spirit-island",
+    "how_it_plays": "A ship, a creature in the vents, and three hours if you teach it. Players can work together and then not. It gets tense and people talk over the creature. We do not leave it on the open shelf every night because the teach is long.\n\nIf they specifically want a heavy box that is not Spirit Island, this is the other binder page. Tonight it is in the back."
+  }
+]

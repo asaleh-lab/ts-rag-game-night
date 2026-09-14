@@ -11,25 +11,25 @@ copy .env.example .env
 
 Put your OpenAI API key in `.env`.
 
-## Let's retrieve by similarity, then MMR, then a score threshold
+## Retrieve by similarity, then MMR, then a score threshold
 
 ```powershell
 npx tsx src/vector-retriever.ts
 ```
 
-## Let's rewrite the question and union the hits
+## Rewrite the question and union the hits
 
 ```powershell
 npx tsx src/multi-query.ts
 ```
 
-## Let's split the question into meaning and a filter
+## Split the question into meaning and a filter
 
 ```powershell
 npx tsx src/self-query.ts
 ```
 
-## Let's embed small chunks and return the parent sheet
+## Embed small chunks and return the parent sheet
 
 ```powershell
 npx tsx src/parent-document.ts
@@ -43,13 +43,13 @@ LlamaIndex.TS does not ship DocumentSummaryIndex, AutoMergingRetriever, Recursiv
 npx tsx src/llamaindex-retrievers.ts
 ```
 
-## Let's search FAISS with no LLM
+## Search FAISS with no LLM
 
 ```powershell
 npx tsx src/faiss-search.ts
 ```
 
-## Let's keep the same embeddings in Chroma and FAISS
+## Keep the same embeddings in Chroma and FAISS
 
 chromadb for Node talks to a server, not a local `chroma_data` folder. We still do one embedding pass and put those vectors in a Chroma-shaped L2 collection and in the brute-force L2 index.
 
